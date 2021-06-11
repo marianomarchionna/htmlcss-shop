@@ -4,3 +4,96 @@
     box-sizing: border-box;
 }
 
+.container {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+img{
+    width: 300px;
+    height: 450px;
+}
+
+.first{
+    display: inline-block;
+}
+
+.second{
+    display: none;
+}
+
+.dress:hover .first{
+    display: none;
+}
+
+.dress:hover .second{
+    display: inline-block;
+}
+
+.dress {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.heart{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: x-large;
+    line-height: 40px;
+}
+
+.discount{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    z-index: 1;
+    width: 45px;
+    height: 25px;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+    line-height: 25px;
+}
+
+.text{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    z-index: 1;
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: forestgreen ;
+    text-align: center;
+    line-height: 25px;
+}
+
+.text2{
+    display: inline-block;
+    position: absolute;
+    bottom: 15%;
+    left: 0px;
+    z-index: 1;
+    width: 90px;
+    height: 25px;
+    color: white;
+    background-color: forestgreen ;
+    text-align: center;
+    line-height: 25px;
+}
+
+#price{
+    color: red;
+}
